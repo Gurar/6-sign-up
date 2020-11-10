@@ -61,7 +61,7 @@ body {
         height: 100%;
         object-fit: cover;
         opacity: 0.3;
-        filter: blur(5px);
+        filter: blur(7px);
     }
 
     .sign {
@@ -83,12 +83,12 @@ body {
         .sign__left {
             flex: 0 1 50%;
             position: relative;
-            /* padding: 0 0 36% 0; */
         }
 
         .sign__right {
             flex: 0 1 50%;
             background-color: #fff;
+            margin: -25px 0;
         }
 
         .sign__image {
