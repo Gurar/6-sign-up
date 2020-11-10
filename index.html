@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>Sing up</title>
 </head>
@@ -10,8 +11,38 @@
     <div class="wrapper">
         <section class="fullscreen">
             <img src="./img/sign-bg.jpg" alt="" class="fullscreen__bg">
-            <div class="container">
-                
+            <div class="sign">
+                <div class="sign__inner">
+                    <div class="sign__left">
+                        <img src="./img/form-img.jpg" alt="" class="sign__image">
+                    </div>
+                    <div class="sign__right">
+                        <form class="form">
+                            <div class="form__item">
+                                <label for="username" class="form__label">Username</label>
+                                <input id="username" type="text" class="form__input">
+                            </div>
+                            <div class="form__item">
+                                <label for="passw" class="form__label">Password</label>
+                                <input id="passw" type="password" class="form__input">
+                            </div>
+
+                            <div class="form__item form__item--checkbox">
+                                <input id="checkbox" type="checkbox" class="form__checkbox">
+                                <label for="checkbox" class="form__label-checkbox">Remember Me</label>
+                            </div>
+    
+                            <div class="form__item">
+                                <button type="submit" class="form__btn btn btn--primary">Sign in</button>
+                            </div>
+    
+                            <div class="form__item">
+                                <a href="#" class="btn btn--link">Forgot Password?</a>
+                                <a href="#" class="btn btn--link">Not a Member yet?</a> 
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
         </section>
     </div>
